@@ -1200,7 +1200,7 @@ import React, { useEffect } from 'react';
 import { Front } from "../styledComponent";
 import { FaArrowDown } from "react-icons/fa6";
 import MCDMF from "../../assets/images/mcdf.jpg";
-import OurMissionImg2 from "../../assets/images/red.png";
+import OurMissionImg2 from "../../assets/images/red.jpg";
 import './portfolio.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -1208,22 +1208,20 @@ import AOS from 'aos';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'aos/dist/aos.css';
-import Loud from '../../assets/logo/loudstier.png';
+import Loud from '../../assets/logo/loudstier.jpg';
 import Geeks from '../../assets/logo/geeks.svg';
 // import Focify from '../../assets/logo/focify.png';
-import Sustaine from '../../assets/logo/sustaine.png';
+import Sustaine from '../../assets/logo/sustaine.jpg';
 import { GoArrowRight } from "react-icons/go";
-import Real from '../../assets/images/realstateImg.png';
+import Real from '../../assets/images/realstateImg.jpg';
 import 'aos/dist/aos.css';
 import { ChevronRightIcon } from '@heroicons/react/20/solid';
-import Mantra from '../../assets/logo/MantraLabs.svg';
-import Trgt from '../../assets/images/Frame 1000004005.png';
-import IdeaHub from  '../../assets/images/idea.png';
-import CMS from    '../../assets/images/CMD.png';
-import Nexa from   '../../assets/logo/nexa.jpeg';
-import MCDMFlogo from '../../assets/images/Mcdmf1 (1).png'
-
-
+import Mantra from '../../assets/logo/MantraLabs.jpg';
+import Trgt from '../../assets/images/Frame 1000004005.jpg';
+import IdeaHub from  '../../assets/images/idea.jpg';
+import CMS from    '../../assets/images/CMD.jpg';
+import Nexa from   '../../assets/logo/nexa.jpg';
+import MCDMFlogo from '../../assets/images/Mcdmf1 (1).jpg';
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({ duration: 1200 }); // Initialize AOS animations
@@ -1263,7 +1261,7 @@ const Portfolio = () => {
     {
       title: 'Digital Marketing',
       description: ['SEO (Search Engine Optimization)', 'SMM (Social media marketing)', 'Branding'],
-      imageUrl: require('../../assets/images/social1.png'),
+      imageUrl: require('../../assets/images/social1.jpg'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#FFFF',
       textColor: 'text-black',
@@ -1355,14 +1353,6 @@ const Portfolio = () => {
               bgColor=""
             />
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide-custom">
-      <Box
-        title="Yadhumadi"
-        description="Farmer & Nature Protection NGO"
-        icone={Mantra}
-        bgColor="box-bg-light-green" // Add custom class for background color if needed
-      />
-    </SwiperSlide>
           {/* <SwiperSlide>
             <Box
               title="Astrology Offline"
@@ -1371,15 +1361,7 @@ const Portfolio = () => {
               bgColor=""
             />
           </SwiperSlide> */}
-           <SwiperSlide className='swiper-slide-Nexa'>
-            <Box
-              title="Astrology Offline"
-              description="Expert Astrologist Website"
-              icone={Nexa}
-              bgColor=""
-            />
-          </SwiperSlide> 
-          <SwiperSlide>
+          <SwiperSlide className='swiper-slide-Geeks'>
             <Box
               title="New Service"
               description="A new exciting service"
@@ -1396,6 +1378,14 @@ const Portfolio = () => {
               bgColor=""
             />
           </SwiperSlide>
+          <SwiperSlide className='swiper-slide-Nexa'>
+            <Box
+              title="Astrology Offline"
+              description="Expert Astrologist Website"
+              icone={Nexa}
+              bgColor=""
+            />
+          </SwiperSlide> 
           <SwiperSlide className="swiper-slide-trgt">
     <Box
       title="New Service"
@@ -1414,6 +1404,14 @@ const Portfolio = () => {
     >
     </Box>
 </SwiperSlide>
+<SwiperSlide className="swiper-slide-custom">
+      <Box
+        title="Yadhumadi"
+        description="Farmer & Nature Protection NGO"
+        icone={Mantra}
+        bgColor="box-bg-light-green" // Add custom class for background color if needed
+      />
+    </SwiperSlide>
 
         </Swiper>
         </div>
@@ -1683,7 +1681,8 @@ const Portfolio = () => {
     <img
       src={service.imageUrl}
       alt={service.title}
-      className="w-10 sm:w-[13%] border border-gray-400 object-cover"
+     className="w-10 sm:w-[13%] border border-gray-400 object-cover"
+      
     />
   </div>
   <h3 className="relative z-20 text-lg sm:text-xl font-semibold mb-2 sm:mb-4">
