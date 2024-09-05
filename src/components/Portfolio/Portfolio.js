@@ -1456,7 +1456,7 @@ const Portfolio = () => {
 </p>
 
   <div className="cardSection flex flex-col-reverse md:flex-row-reverse bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-right" data-aos-delay="100">
-  <div className="story_img w-full md:w-1/2 h-64 md:h-full">
+  <div className="port_img w-full md:w-1/2 h-64 md:h-full">
     <img
       src={Real}
       alt="MCDMF"
@@ -1464,7 +1464,7 @@ const Portfolio = () => {
       onClick={handleImageClick} // Handle click to open link
     />
   </div>
-  <div className="storyText w-full md:w-1/2 p-4">
+  <div className="portText w-full md:w-1/2 p-4">
     <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">RealEstate</h1>
     <div className="flex flex-wrap justify-center gap-2 mb-6">
   <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -1495,7 +1495,7 @@ const Portfolio = () => {
   </div>
 </div>
 <div className="cardSection reverse flex flex-col-reverse md:flex-row bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-left" data-aos-delay="100">
-  <div className="storyText w-full md:w-1/2 p-4">
+  <div className="portText w-full md:w-1/2 p-4">
   <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">E-Commerce</h1>
     <div className="flex flex-wrap justify-center gap-2 mb-6">
   <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -1524,7 +1524,7 @@ const Portfolio = () => {
       Delivered an e-commerce website with a focus on innovation and user-centric design, ensuring a standout shopping experience in a competitive market
     </p>
   </div>
-  <div className="story_img w-full md:w-1/2 h-64 md:h-full">
+  <div className="port_img w-full md:w-1/2 h-64 md:h-full">
     <img
       src={OurMissionImg2}
       alt="E-Commerce"
@@ -1533,7 +1533,7 @@ const Portfolio = () => {
   </div>
 </div>
 <div className="cardSection flex flex-col md:flex-row" data-aos="fade-right" data-aos-delay="100">
-  <div className="story_img w-full md:w-3/4 h-96 md:h-auto">
+  <div className="port_img w-full md:w-3/4 h-96 md:h-auto">
   <img
     src={MCDMF}
     alt="MCDMF"
@@ -1542,7 +1542,7 @@ const Portfolio = () => {
   />
 </div>
 
-  <div className="storyText w-full md:w-1/2 p-4">
+  <div className="portText w-full md:w-1/2 p-4">
     <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">MCDMF</h1>
     <div className="flex flex-wrap justify-center gap-2 mb-6">
   <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -1573,7 +1573,7 @@ const Portfolio = () => {
   </div>
 </div>
 <div className="cardSection reverse flex flex-col-reverse md:flex-row bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-left" data-aos-delay="100">
-  <div className="storyText w-full md:w-1/2 p-4">
+  <div className="portText w-full md:w-1/2 p-4">
   <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">Idea Hub</h1>
     <div className="flex flex-wrap justify-center gap-2 mb-6">
   <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -1602,7 +1602,7 @@ const Portfolio = () => {
       Ideahub's commitment to turning visionary concepts into reality.
     </p>
   </div>
-  <div className="story_img w-full md:w-1/2 h-64 md:h-full">
+  <div className="port_img w-full md:w-1/2 h-64 md:h-full">
     <img
       src={IdeaHub}
       alt="E-Commerce"
@@ -1611,7 +1611,7 @@ const Portfolio = () => {
   </div>
 </div>
 <div className="cardSection flex flex-col-reverse md:flex-row-reverse bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-right" data-aos-delay="100">
-<div className="story_img w-full md:w-1/2 h-64 md:h-full">
+<div className="port_img w-full md:w-1/2 h-64 md:h-full">
   <img
     src={CMS}
     alt="CMS"
@@ -1619,7 +1619,7 @@ const Portfolio = () => {
     onClick={handleImageClick} // Handle click to open link
   />
 </div>
-  <div className="storyText w-full md:w-1/2 p-4">
+  <div className="portText w-full md:w-1/2 p-4">
     <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">MultiTenant CMS</h1>
     <div className="flex flex-wrap justify-center gap-2 mb-6">
   <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">

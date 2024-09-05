@@ -95,7 +95,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="whatsapp"
             >
-              <FaWhatsapp className="social_icons white" />
+              <FaWhatsapp style={{ color: 'white', fontSize: '20px' }} />
             </a>
           </div>
         </div>

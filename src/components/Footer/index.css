@@ -28,7 +28,7 @@
 }
 .footer-social-links {
   display: flex;
-  gap: 24px;
+  gap: 14px;
   margin: 36px 0;
 }
 .footer-social-links a {

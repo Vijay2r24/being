@@ -41,10 +41,11 @@ nav {
   position: absolute;
   bottom: 8px;
   font-family: "lucidacalligraphy";
-  margin-left: 63px;
+  margin-left: 68px;
   color: #ff6247;
   font-size: 1rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 .menu-list {
   list-style-type: none;
@@ -99,3 +100,21 @@ nav {
     transition: all 0.5s ease-in-out;
   }
 }
+@media (max-width: 768px) {
+  .logo_sub {
+    margin-left: 68px; /* Adjust margin for smaller screens */
+    font-size: 0.9rem; /* Reduce font size */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
