@@ -1404,7 +1404,7 @@ const Portfolio = () => {
     >
     </Box>
 </SwiperSlide>
-<SwiperSlide className="swiper-slide-custom">
+<SwiperSlide className="swiper-slide-trgt">
       <Box
         title="Yadhumadi"
         description="Farmer & Nature Protection NGO"

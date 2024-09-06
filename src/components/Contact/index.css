@@ -148,6 +148,7 @@
   gap: 18px;
 }
 .contact-us-right form input {
+  border: .9px solid #000;
   padding: 12px;
   width: 100%;
 }
@@ -205,6 +206,7 @@ input[type="number"] {
 .contact-us-right form textarea {
   width: 100%;
   padding: 12px;
+  border: .9px solid #000;
 }
 .contact-us-right form textarea {
   resize: none;

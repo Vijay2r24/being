@@ -60,7 +60,7 @@ const Home = () => {
           apart from the rest? Here are some compelling reasons why you should
           choose us:
         </p>
-        <div style={{ width: "115vw" }}>
+        <div style={{ width: "100vw" }}>
           <Chrono
             items={chooseUsList}
             mode="VERTICAL_ALTERNATING"
