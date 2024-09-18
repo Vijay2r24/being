@@ -60,7 +60,8 @@ const Home = () => {
           apart from the rest? Here are some compelling reasons why you should
           choose us:
         </p>
-        <div style={{ width: "100vw" }}>
+        <div style={{ width: "115vw"}}> 
+         {/* <div className="chrone"> */}
           <Chrono
             items={chooseUsList}
             mode="VERTICAL_ALTERNATING"
@@ -69,7 +70,6 @@ const Home = () => {
             activeItemIndex=""
             hideControls
             disableToolbar
- 
             slideShowType="reveal"
             className={{ cardTitle: "my-card-title" }}
             theme={{
