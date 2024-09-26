@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .footer-content {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +161,22 @@
 }
 .arrow-up:hover {
   transform: translateY(-5px); /* Adjust the distance for the hover effect */
+}
+@media (max-width: 1366px) {
+  .footer {
+    padding: 16px 16px 16px 48px;
+  }
+
+  .footer-content {
+    padding: 20px 0;
+    padding-bottom:0px;
+  }
+  .copy-rights {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+  }
+
 }
 
 @media screen and (max-width: 992px) {
